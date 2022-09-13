@@ -15,6 +15,8 @@ This website displays the projects I have created in my University of Minnesota 
 
 #### The work done can be found on the GitHub repository [zahirovic/Portfolio](https://github.com/zahirovic/Portfolio)
 
+- My portoflio can be found **[here](https://zahirovic.github.io/Portfolio/)**
+
 
 
 ## Credits
