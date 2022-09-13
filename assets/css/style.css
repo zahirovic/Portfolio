@@ -49,7 +49,6 @@ main {
     list-style: none;
 }
 
-
 .header div ul li {
     display: flex;
     flex-direction: column;
