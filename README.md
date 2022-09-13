@@ -25,6 +25,7 @@ This website displays the projects I have created in my University of Minnesota 
 
 - [Markdown Tutorial](https://www.markdowntutorial.com/) for help on basic markdown 
 - [FreeCodeCamp](https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/) on how to open links in new tabs in HTML
+- [W3Schools](https://www.w3schools.com/cssref/sel_hover.asp) on CSS hover selectors
 
 ## Features
 
