@@ -35,7 +35,9 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin-right: 30px;
     font-size: 48px;
+    
 }
 
 .header div {
@@ -44,17 +46,19 @@ main {
     width: 100%;   
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    list-style: none;
 }
 
-.header div ul {
-    list-style-type: none;
-}
 
 .header div ul li {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     text-align: end;
+
+}
+.header div ul li:hover {
+    background-color: black;
 }
 
 a {
@@ -70,22 +74,17 @@ p {
 }
 
 .banner {
-    height: 245px;
+    display: flex;
+    height: 300px;
     width: 100%;
-    margin-bottom: 25px;
-    background-image: url(images/banner.jpg);
+    background-image: url("../images/banner.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .about-me {
+    display: flex;
     width: 100%;
-    display: flex;
-}
-
-
-.about-me {
-    display: flex;
     flex-direction: column;
     justify-content: left;
     padding: 50px;
@@ -99,11 +98,12 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px;
+    padding: 50px;
     clear: both;
     width: 100%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
     background-color: #835da7;
 }
 
@@ -111,7 +111,11 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-image: url("../images/study-guide.jpg");
+    background-size: cover;
+    background-position: center;
     margin-bottom: 32px;
+    font-size:larger;
     color: #ffffff;
 }
 
@@ -119,7 +123,10 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 32px;
+    background-image: url("../images/horiseon.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 40px;
     color: #ffffff;
 }
 
@@ -127,6 +134,9 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-image: url("../images/coming-soon.jpg");
+    background-size: cover;
+    background-position: center;
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -146,28 +156,12 @@ p {
     text-align: center;
 }
 
-.prework-study-guide img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.horiseon-refactor img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.coming-soon img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
 .footer {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    list-style: none;
+    align-items: center;
     width: 100%;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -181,16 +175,12 @@ p {
     font-size: 20px;
 }
 
-@media screen and (max-width: 768px) {
-    main,
-    nav {
-      flex-direction: column;
-    }
-    header {
-      background: grey;
-    }
-    nav,
-    footer {
-      background-color: white;
-    }
-  }
+.footer li {
+display: flex;
+flex-direction: column;
+justify-content: center;
+color: black; }
+
+.footer li:hover {
+    background-color: #835da7;
+}
