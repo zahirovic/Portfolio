@@ -25,7 +25,6 @@ This website displays the projects I have created in my University of Minnesota 
 
 ## Features
 
-- HTML alt image text
 - HTML/CSS alt title image text 
 - Flexbox
 
