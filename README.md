@@ -13,7 +13,7 @@ N/A
 This website displays the projects I have created in my University of Minnesota Full Stack Program. While also displaying my contact information and a simple bio. 
 
 
-#### The work done can be found the on GitHub repository [zahirovic/Portfolio](https://github.com/zahirovic/Portfolio)
+#### The work done can be found on the GitHub repository [zahirovic/Portfolio](https://github.com/zahirovic/Portfolio)
 
 
 
