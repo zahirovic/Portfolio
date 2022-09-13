@@ -19,7 +19,7 @@ body {
     background-color: #4d0496;
     color: #ffffff;
 }
-
+/*added this section for flex wrap*/
 main {
     display: flex;
     flex-wrap: wrap;
@@ -56,6 +56,8 @@ main {
     text-align: end;
 
 }
+
+/*added hover*/
 .header div ul li:hover {
     background-color: black;
 }
@@ -105,7 +107,7 @@ p {
     color: #ffffff;
     background-color: #835da7;
 }
-
+/*moved image from html after working for a bit*/
 .prework-study-guide {
     display: flex;
     flex-direction: column;
@@ -117,7 +119,7 @@ p {
     font-size:larger;
     color: #ffffff;
 }
-
+/*moved image from html after working for a bit*/
 .horiseon-refactor {
     display: flex;
     flex-direction: column;
@@ -129,6 +131,7 @@ p {
     color: #ffffff;
 }
 
+/*moved image from html after working for a bit*/
 .coming-soon {
     display: flex;
     flex-direction: column;
@@ -180,6 +183,7 @@ flex-direction: column;
 justify-content: center;
 color: black; }
 
+/*added hover*/
 .footer li:hover {
     background-color: #835da7;
 }
