@@ -36,7 +36,7 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     margin-right: 30px;
-    font-size: 48px;
+    font-size: 60px;
     
 }
 
@@ -71,7 +71,7 @@ p {
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .banner {
@@ -116,7 +116,7 @@ p {
     background-size: cover;
     background-position: center;
     margin-bottom: 32px;
-    font-size:larger;
+    font-size:x-large;
     color: #ffffff;
 }
 /*moved image from html after working for a bit*/
@@ -176,14 +176,24 @@ p {
     justify-content: left;
     font-size: 20px;
 }
-
+/*added margin and padding*/
 .footer li {
 display: flex;
-flex-direction: column;
+padding-left: 20px;
+padding-right: 20px;
+flex-direction: row;
 justify-content: center;
 color: black; }
-
+/*added margin and padding*/
+.footer a {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+margin: 20px;
+padding: 20px;
+color: black;  
+}
 /*added hover*/
 .footer li:hover {
-    background-color: #835da7;
+    background-color: #e8b3f3;
 }
