@@ -14,10 +14,6 @@ This website displays the projects I have created in my University of Minnesota 
 
 
 #### The work done can be found the GitHub repository [zahirovic/Portfolio](https://github.com/zahirovic/Portfolio)
-- The actual product can be found **[here](https://zahirovic.github.io/Portfolio/)** and should look along the lines of this depending on device screen size:
-
-
-![Portfolio website example](assets/images/portfolio-screenshot.png)
 
 
 
