@@ -131,6 +131,18 @@ p {
     color: #ffffff;
 }
 
+/*added food fast*/
+.food-fast {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../images/coming-soon.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
 /*moved image from html after working for a bit*/
 .coming-soon {
     display: flex;
@@ -153,6 +165,10 @@ p {
     text-align: center;
 }
 
+.food-fast h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
 .coming-soon h3 {
     margin-bottom: 10px;
     text-align: center;
